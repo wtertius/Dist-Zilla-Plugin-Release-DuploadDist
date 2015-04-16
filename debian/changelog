@@ -1,0 +1,12 @@
+libdist-zilla-plugin-release-duploaddist (0.002) precise; urgency=low
+
+  * Add changelog.
+
+ -- Dmitry Lukiyanchuk <wtertius@gmail.com>  Thu, 16 Apr 2015 12:21:57 +0300
+
+libdist-zilla-plugin-release-duploaddist (0.001) precise; urgency=low
+
+  * Initial commit.
+
+ -- Dmitry Lukiyanchuk <wtertius@gmail.com>  Thu, 16 Apr 2015 12:16:48 +0300
+

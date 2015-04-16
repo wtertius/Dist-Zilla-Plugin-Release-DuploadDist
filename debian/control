@@ -1,0 +1,27 @@
+Source: libdist-zilla-plugin-release-duploaddist
+Section: perl
+Priority: optional
+Maintainer: Dmitry Lukiyanchuk <wtertius@gmail.com>
+Build-Depends: debhelper (>= 8),
+ libpath-class-perl,
+ libfile-pushd-perl,
+ libdist-zilla-perl,
+ libdist-zilla-plugin-git-perl,
+ libdist-zilla-plugin-changelogfromgit-debian-sequential-perl,
+ libmoose-perl
+Build-Depends-Indep: perl
+Standards-Version: 3.9.4
+
+
+Package: libdist-zilla-plugin-release-duploaddist
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libpath-class-perl,
+ libfile-pushd-perl,
+ libdist-zilla-perl,
+ libdist-zilla-plugin-git-perl,
+ libdist-zilla-plugin-changelogfromgit-debian-sequential-perl,
+ libmoose-perl
+Description: Dist::Zilla plugin for release
+ It does not generate debian/* files, you must create them by yourself in
+ advance.

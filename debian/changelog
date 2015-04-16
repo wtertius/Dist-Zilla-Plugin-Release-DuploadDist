@@ -1,4 +1,12 @@
+libdist-zilla-plugin-release-duploaddist (0.002) precise; urgency=low
+
+  * No changes
+
+ -- Dmitry Lukiyanchuk <tertius@yandex-team.ru>  Thu, 16 Apr 2015 13:56:22 +0300
+
 libdist-zilla-plugin-release-duploaddist (0.001) precise; urgency=low
+
+  * Version 0.001
 
   * Initial commit.
 
